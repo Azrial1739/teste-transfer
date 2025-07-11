@@ -37,3 +37,5 @@ ___
 🔴 Duvidoso: Forte indício de falsidade
 
 ❔ Desconhecido: Não avaliado ou credibilidade da fonte desconhecida
+
+![Alt text](/banner-bottom.jpg)
