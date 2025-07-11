@@ -16,17 +16,22 @@
     a { color: #00bfff; }
     h1, h2, h3 { color: #fff; }
 
-  .banner {
+ .banner {
   background-image: url('{{ site.baseurl }}/banner.jpg');
   background-size: cover;
   background-position: center 35%;
-  padding: 4rem 1rem;
-  text-align: bottom 20%;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+  height: 300px; /* You can adjust this height */
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 1rem 20%; /* Bottom padding = 20% */
+  position: relative;
 }
 
-.banner h1 {
+.banner-text h1 {
   color: blue;
+  margin: 0;
+}
 }
   }
   </style>
