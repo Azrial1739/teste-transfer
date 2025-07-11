@@ -3,7 +3,6 @@ layout: default
 title: r/fcporto Transfer Reliability
 ---
 
-# r/fcporto Transfer Reliability
 
 ## Tiers:
 
