@@ -17,23 +17,39 @@
     h1, h2, h3 { color: #fff; }
 
 .banner {
+  position: relative;
   background-image: url('{{ site.baseurl }}/banner.jpg');
   background-size: cover;
-  background-position: center 35%;
-  height: 200px; /* Or however tall you want the banner */
-  position: relative;
+  background-position: center 40%;
+  padding: 4rem 1rem;
+  height: 200px; /* or your preferred height */
+  display: flex;
+  align-items: flex-end;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* translucent black */
+  z-index: 1;
 }
 
 .banner-text {
   position: absolute;
-  left: 1rem; /* distance from the left edge */
-  bottom: 8%; /* 8% up from the bottom of the banner */
-  color: black;
+  left: 1rem;
+  bottom: 1rem;
+  color: #fff; /* white text on dark overlay */
+  z-index: 2;
   margin: 0;
+}
   </style>
 </head>
 <body>
   <header class="banner">
+  <div class="banner-overlay"></div>
   <h1 class="banner-text">{{ page.title | default: site.title }}</h1>
 </header>
 
