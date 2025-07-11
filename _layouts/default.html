@@ -16,29 +16,25 @@
     a { color: #00bfff; }
     h1, h2, h3 { color: #fff; }
 
- .banner {
+.banner {
   background-image: url('{{ site.baseurl }}/banner.jpg');
   background-size: cover;
   background-position: center 35%;
-  height: 300px; /* You can adjust this height */
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding: 0 1rem 20%; /* Bottom padding = 20% */
+  height: 300px; /* Or however tall you want the banner */
   position: relative;
 }
 
-.banner-text h1 {
-  color: blue;
+.banner-text {
+  position: absolute;
+  left: 1rem; /* distance from the left edge */
+  bottom: 20%; /* 20% up from the bottom of the banner */
+  color: #004aad; /* your chosen vibrant dark blue */
   margin: 0;
-}
   </style>
 </head>
 <body>
   <header class="banner">
-  <div class="banner-text">
-    <h1>{{ page.title | default: site.title }}</h1>
-  </div>
+  <h1 class="banner-text">{{ page.title | default: site.title }}</h1>
 </header>
 
   <main>
