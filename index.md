@@ -3,15 +3,18 @@ layout: default
 title: r/fcporto Transfer Reliability
 ---
 
-# r/fcporto Transfer Reliability
 
 ## Tiers:
 
-**Tier 1:** PortoYouth, RTP  
-**Tier 2:** O Jogo, Mercado Azul, zerozero, Cabine Desportiva, SportTV, JN  
-**Tier 3:** Mais Futebol/CNN, Record, SIC Notícias, Mais Exclusivo, José Manuel Ribeiro, Ben Fernandes Santos  
-**Tier 4:** Pedro Sepúlveda, A Bola, Sebastião Sousa Pinto, Bruno Andrade  
-**Tier 5:** CMTV, Now Canal, Vítor Pinto, Nuno Farinha  
+**Tier 1:** PortoYouth, RTP
+
+**Tier 2:** O Jogo, Mercado Azul, zerozero, Cabine Desportiva, SportTV, JN
+
+**Tier 3:** Mais Futebol/CNN, Record, SIC Notícias, Mais Exclusivo, José Manuel Ribeiro, Ben Fernandes Santos
+
+**Tier 4:** Pedro Sepúlveda, A Bola, Sebastião Sousa Pinto, Bruno Andrade
+
+**Tier 5:** CMTV, Now Canal, Vítor Pinto, Nuno Farinha
 
 **➕ Outros:**  
 Geral (Fabrizio Romano, Matteo Moretto);  
@@ -33,10 +36,14 @@ ___
 
 ### Avaliação de rumores:
 
-✅ **Confiável:** Confirmado por fonte credível ou corroborado por mais do que uma  
-🟡 **Possível:** Plausível, mas carece de confirmação  
-🟠 **Suspeito:** Fontes pouco confiáveis  
-🔴 **Duvidoso:** Forte indício de falsidade  
+✅ **Confiável:** Confirmado por fonte credível ou corroborado por mais do que uma
+
+🟡 **Possível:** Plausível, mas carece de confirmação
+
+🟠 **Suspeito:** Fontes pouco confiáveis
+
+🔴 **Duvidoso:** Forte indício de falsidade
+
 ❔ **Desconhecido:** Não avaliado ou credibilidade da fonte desconhecida
 
 <footer class="footer-banner">
