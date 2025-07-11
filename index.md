@@ -39,4 +39,7 @@ ___
 
 ❔ Desconhecido: Não avaliado ou credibilidade da fonte desconhecida
 
-![Alt text](/bottom.jpg)
+<footer class="footer-banner">
+  <div class="footer-overlay"></div>
+
+</footer>
