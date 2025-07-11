@@ -22,7 +22,7 @@
   background-position: center 35%;
   padding: 4rem 1rem;
   text-align: bottom 20%;
-  text-shadow: none;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
 }
 
 .banner h1 {
@@ -33,8 +33,10 @@
 </head>
 <body>
   <header class="banner">
+  <div class="banner-text">
     <h1>{{ page.title | default: site.title }}</h1>
-  </header>
+  </div>
+</header>
 
   <main>
     {{ content }}
