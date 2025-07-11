@@ -40,6 +40,5 @@ ___
 ❔ Desconhecido: Não avaliado ou credibilidade da fonte desconhecida
 
 <footer class="footer-banner">
-  <div class="footer-overlay"></div>
 
 </footer>
