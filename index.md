@@ -38,4 +38,4 @@ ___
 
 ❔ Desconhecido: Não avaliado ou credibilidade da fonte desconhecida
 
-![Alt text](/banner-bottom.jpg)
+![Alt text](/bottom.jpg)
