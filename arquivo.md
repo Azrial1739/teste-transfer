@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Arquivo
-menu_title: Arquivo
 permalink: /arquivo/
+menu_title: Arquivo
 ---
 
 
