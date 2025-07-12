@@ -30,6 +30,8 @@ menu_title: Arquivo
   }
 </style>
 
+<br>
+
 ### Equipa B
 
 | Jogador       | Data  | Fonte |
