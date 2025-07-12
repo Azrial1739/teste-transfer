@@ -27,5 +27,6 @@ ___
 ___
 
 <p style="font-size: 0.85rem; color: #ccc;">
-Este é um trabalho voluntário, independente e sem fins lucrativos, da autoria do <a href="https://www.reddit.com/r/fcporto" target="_blank" style="color: #ccc; text-decoration: underline;">r/fcporto</a>. Qualquer sugestão, correção ou contribuição é bem-vinda.
+  Este é um trabalho voluntário, independente e sem fins lucrativos, da autoria do <a href="https://www.reddit.com/r/fcporto" target="_blank" style="color: #ccc; text-decoration: underline;">r/fcporto</a>. Qualquer sugestão, correção ou contribuição é bem-vinda.<br>
+  Licenciado sob a <a href="{{ site.baseurl }}/LICENSE" target="_blank" style="color: #ccc; text-decoration: underline;">Licença MIT</a>.
 </p>
