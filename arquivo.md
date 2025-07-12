@@ -6,13 +6,13 @@ menu_title: Arquivo
 ---
 
 
-## Equipa B
+### Equipa B
 
 | Avaliação | Jogador      | Data   | Fonte |
 |----------|--------------|--------|-------|
 | ❔        | Caio Barone  | 07/06  | AS    |
 
-## Inacessível / Desacordo / Desviado
+### Inacessível / Desacordo / Desviado
 
 | Avaliação | Jogador          | Data   | Fonte              |
 |----------|------------------|--------|---------------------|
@@ -20,7 +20,7 @@ menu_title: Arquivo
 | ✅        | CJ Egan-Riley    | 13/06  | Fabrice Hawkins     |
 | ✅        | Roony Bardghji   | 23/06  | Farzam Abolhosseini |
 
-## Desmentidos
+### Desmentidos
 
 | Avaliação | Jogador           | Data   | Fonte   |
 |----------|-------------------|--------|---------|
