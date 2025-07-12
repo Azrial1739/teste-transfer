@@ -1,82 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{{ page.title | default: site.title }}</title>
+  <title>r/fcporto Transfer Guide</title>
   <style>
     body {
       background-color: #0a192f;
       color: white;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      line-height: 1.6;
     }
-
+    a {
+      color: #00bfff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
     .header {
       display: flex;
       align-items: center;
-      justify-content: center;
-      padding: 2rem 1rem 1rem;
-      flex-wrap: wrap;
+      margin-bottom: 2rem;
     }
-
     .header img {
       height: 130px;
-      width: auto;
       margin-right: 1rem;
     }
-
     .header h1 {
-      font-size: 2rem;
-      margin: 0;
-      color: white;
       font-weight: 800;
-    }
-
-    .menu-container {
-      padding: 2rem 1rem;
-    }
-
-    .menu-button {
-      display: block;
-      background-color: #001f3f;
+      font-size: 2.5rem;
       color: white;
-      font-size: 1rem;
-      font-weight: 600;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      text-decoration: none;
-      padding: 1rem;
-      margin: 1rem auto;
-      max-width: 90%; 
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .menu-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 600px;
+      margin: 0 auto 2rem auto;
+    }
+    .menu-button {
+      background-color: #011627;
+      border: none;
+      padding: 1.25rem 3rem;
+      font-size: 1.5rem;
+      color: white;
+      cursor: pointer;
       border-radius: 8px;
-      transition: background-color 0.3s;
+      transition: background-color 0.3s ease;
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+      font-weight: 600;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-decoration: none;
+      display: block;
     }
-
     .menu-button:hover {
-      background-color: #003366;
+      background-color: #0080ff;
     }
-
-    @media (min-width: 768px) {
-      .menu-button {
-        max-width: 600px;  
-        font-size: 1.25rem;
-        padding: 1.25rem 3rem; 
-      }
+    .footer-banner {
+      background-image: url('{{ site.baseurl }}/images/bottom.jpg');
+      background-size: cover;
+      background-position: center 35%;
+      height: 200px;
+      margin-top: 2rem;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
+  <header class="header">
+    <img src="{{ site.baseurl }}/images/logo.png" alt="r/fcporto logo" />
+    <h1>r/fcporto Transfer Guide</h1>
+  </header>
 
-  <div class="header">
-    <img src="{{ site.baseurl }}/images/logo.png" alt="FCP Logo" />
-    <h1>{{ page.menu_title | default: page.title }}</h1>
-  </div>
+  <main>
+    <div class="menu-container">
+      <a href="{{ site.baseurl }}/transfer" class="menu-button">Transfer Reliability</a>
+      <!-- Future menu options go here -->
+    </div>
 
-  <div class="menu-container">
-    <a class="menu-button" href="{{ site.baseurl }}/transfer/">Transfer Reliability</a>
-  </div>
-
+    <footer class="footer-banner"></footer>
+  </main>
 </body>
 </html>
