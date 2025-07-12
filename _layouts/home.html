@@ -9,86 +9,70 @@
       background-color: #0a192f;
       color: white;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 2rem 1rem;
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .container {
       max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
-      line-height: 1.6;
+      width: 100%;
+      text-align: center;
     }
     a {
       color: #00bfff;
       text-decoration: none;
       font-weight: 600;
-      font-size: 1.1rem;
+      font-size: 1.5rem;
+      display: block;
+      margin: 1rem 0;
+      padding: 1rem 0;
+      border-radius: 8px;
+      background-color: #011627;
+      transition: background-color 0.3s ease;
     }
     a:hover {
-      text-decoration: underline;
-    }
-    .header {
-      display: flex;
-      align-items: center;
-      margin-bottom: 2rem;
-    }
-    .header img {
-      height: 130px;
-      margin-right: 1rem;
-    }
-    .header h1 {
-      font-weight: 800;
-      font-size: 2.5rem;
-      color: white;
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    .menu-container {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      max-width: 600px;
-      margin: 0 auto 2rem auto;
-    }
-    .menu-button {
-      background-color: #011627;
-      border: none;
-      padding: 1.25rem 3rem;
-      font-size: 1.5rem;
-      color: white;
-      cursor: pointer;
-      border-radius: 8px;
-      transition: background-color 0.3s ease;
-      max-width: 600px;
-      width: 100%;
-      text-align: center;
-      font-weight: 600;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      text-decoration: none;
-      display: block;
-    }
-    .menu-button:hover {
       background-color: #0080ff;
     }
+
     .footer-banner {
       background-image: url('{{ site.baseurl }}/images/bottom.jpg');
       background-size: cover;
       background-position: center 35%;
       height: 200px;
-      margin-top: 2rem;
+      margin-top: 4rem;
       border-radius: 8px;
+    }
+    /* Responsive styles */
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem 0.5rem;
+      }
+      .container {
+        max-width: 100%;
+        padding: 0 1rem;
+      }
+      a {
+        font-size: 1.2rem;
+        margin: 0.75rem 0;
+        padding: 0.75rem 0;
+      }
+      .footer-banner {
+        height: 150px;
+        margin-top: 2rem;
+      }
     }
   </style>
 </head>
 <body>
-  <header class="header">
-    <img src="{{ site.baseurl }}/images/logo.png" alt="r/fcporto logo" />
-    <h1>r/fcporto Transfer Guide</h1>
-  </header>
-
-  <main>
-    <div class="menu-container">
-      <a href="{{ site.baseurl }}/transfer" class="menu-button">Transfer Reliability</a>
-      <!-- Future menu options go here -->
-    </div>
+  <div class="container">
+    <main>
+      <a href="{{ site.baseurl }}/transfer">Transfer Reliability</a>
+    
+    </main>
 
     <footer class="footer-banner"></footer>
-  </main>
+  </div>
 </body>
 </html>
