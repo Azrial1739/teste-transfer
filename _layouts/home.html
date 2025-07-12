@@ -65,6 +65,21 @@
         padding: 1.25rem 3rem; 
       }
     }
+
+.footer-banner {
+  background-image: url('{{ site.baseurl }}/images/bottom.jpg');
+  background-size: cover;
+  background-position: center 35%;
+  height: 200px;
+  margin-top: 4rem;
+  border-radius: 8px;
+}
+@media (max-width: 600px) {
+  .footer-banner {
+    height: 150px;
+    margin-top: 2rem;
+  }
+}
   </style>
 </head>
 <body>
@@ -79,6 +94,7 @@
   <div class="menu-container">
     <a class="menu-button" href="{{ site.baseurl }}/transfer/">Transfer Reliability</a>
   </div>
-
+  
+<footer class="footer-banner"></footer>
 </body>
 </html>
