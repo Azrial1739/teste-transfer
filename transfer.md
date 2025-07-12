@@ -5,7 +5,6 @@ permalink: /transfer/
 ---
 
 
-
 ## Tiers:
 
 **Tier 1:** PortoYouth, RTP
