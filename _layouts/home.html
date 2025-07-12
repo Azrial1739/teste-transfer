@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ page.title | default: site.title }}</title>
   <style>
     body {
@@ -31,7 +31,7 @@
     .header h1 {
       font-size: 2rem;
       margin: 0;
-      color: white; 
+      color: white;
       font-weight: 800;
     }
 
@@ -49,7 +49,7 @@
       text-decoration: none;
       padding: 1rem;
       margin: 1rem auto;
-      max-width: 300px;
+      max-width: 90%;
       border-radius: 8px;
       transition: background-color 0.3s;
     }
@@ -57,12 +57,20 @@
     .menu-button:hover {
       background-color: #003366;
     }
+
+    @media (min-width: 768px) {
+      .menu-button {
+        max-width: 400px;
+        font-size: 1.25rem;
+        padding: 1.25rem 2rem;
+      }
+    }
   </style>
 </head>
 <body>
 
   <div class="header">
-    <img src="{{ site.baseurl }}/images/logo.png" alt="FCP Logo">
+    <img src="{{ site.baseurl }}/images/logo.png" alt="FCP Logo" />
     <h1>{{ page.menu_title | default: page.title }}</h1>
   </div>
 
