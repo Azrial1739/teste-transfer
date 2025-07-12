@@ -5,7 +5,9 @@ menu_title: Histórico MegaThread
 permalink: /historico/
 ---
 <br>
+## Época 2024/25  
 
-### <a href="https://www.reddit.com/r/fcporto/comments/1hr7024/megathread_mercado_de_transfer%C3%AAncias_inverno/" target="_blank" style="color: #ccc; text-decoration: underline;">Mercado Inverno 2025</a>
+<a href="https://www.reddit.com/r/fcporto/comments/1hr7024/megathread_mercado_de_transfer%C3%AAncias_inverno/" target="_blank" style="color: #ccc; text-decoration: underline;">Mercado Inverno</a>
 
-### Mercado de Verão 2024 
+<a href="https://www.reddit.com/r/fcporto/comments/1d7dceo/megathread_mercado_de_transfer%C3%AAncias_ver%C3%A3o_202425/" target_"_blank" style="color: #ccc; text-decoration: underline;">Mercado Verão</a>
+
