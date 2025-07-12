@@ -23,3 +23,7 @@ ___
 **Tier 4** - -
 
 **Tier 5** - -
+
+___
+
+Este é um trabalho voluntário e independente, da autoria do r/fcporto. Qualquer sugestão, correção ou contribuição é bem-vinda.
