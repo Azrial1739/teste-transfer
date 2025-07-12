@@ -68,15 +68,20 @@
 
 .footer-banner {
   background-image: url('{{ site.baseurl }}/images/bottom.jpg');
-  background-size: contain;
-  background-position: center 35%;
-  height: 200px;
+  background-size: cover;
+  background-position: center 50%;
+  background-repeat: no-repeat;  
+  height: 300px;
   margin-top: 4rem;
   border-radius: 8px;
+  overflow: hidden;
 }
+
 @media (max-width: 600px) {
   .footer-banner {
     height: 180px;
+    background-position: center 60%;
+    background-repeat: no-repeat; 
     margin-top: 2rem;
   }
 }
