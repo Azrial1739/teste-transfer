@@ -26,4 +26,6 @@ ___
 
 ___
 
+<p style="font-size: 0.85rem; color: #ccc;">
 Este é um trabalho voluntário e independente, da autoria do r/fcporto. Qualquer sugestão, correção ou contribuição é bem-vinda.
+</p>
