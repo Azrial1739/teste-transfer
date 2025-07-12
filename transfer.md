@@ -1,7 +1,9 @@
 ---
 layout: default
-title: r/fcporto Transfer Reliability
+title: Transfer Reliability
+permalink: /transfer/
 ---
+
 
 
 ## Tiers:
