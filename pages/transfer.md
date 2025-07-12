@@ -2,6 +2,7 @@
 layout: default
 title: Transfer Reliability
 permalink: /transfer/
+menu_title: transfer
 ---
 
 
