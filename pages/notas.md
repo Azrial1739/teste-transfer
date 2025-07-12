@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Notas
-menu_title: Notas
 permalink: /notas/
+menu_title: Notas
 ---
 
 <br>
