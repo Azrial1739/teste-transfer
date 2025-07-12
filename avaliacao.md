@@ -4,7 +4,7 @@ title: Avaliação de rumores
 menu_title: Avaliação de rumores
 permalink: /avaliacao/
 ---
-<br><br>
+<br>
 
 ✅ **Confiável:** Confirmado por fonte credível ou corroborado por mais do que uma
 
