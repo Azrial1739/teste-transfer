@@ -36,17 +36,3 @@ Países Baixos (Lentin Goodijk)
 Luís Pinto Coelho; Bola na Rede; Nicolò Schira; Rudy Galetti; EkremKONUR; Michael Rincón; Jorge das Transferências; MarktGatekeeper; Mercado1893; Info Azul&Branca; Perry das Transferências; Pedro Almeida; Sacha Tavolieri; invictus; Dragão de Berço; Rúben Fernandes
 
 
-___
-
-
-### Avaliação de rumores:
-
-✅ **Confiável:** Confirmado por fonte credível ou corroborado por mais do que uma
-
-🟡 **Possível:** Plausível, mas carece de confirmação
-
-🟠 **Suspeito:** Fontes pouco confiáveis
-
-🔴 **Duvidoso:** Forte indício de falsidade
-
-❔ **Desconhecido:** Não avaliado ou credibilidade da fonte desconhecida
