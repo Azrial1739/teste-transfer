@@ -7,6 +7,8 @@ permalink: /transfer/
 
 ## Tiers:
 
+**Tier 0:** FC Porto, CMVM
+
 **Tier 1:** PortoYouth, RTP
 
 **Tier 2:** O Jogo, Mercado Azul, zerozero, Cabine Desportiva, SportTV, JN
