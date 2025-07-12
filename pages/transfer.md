@@ -9,18 +9,23 @@ menu_title: transfer
 ## Tiers:
 
 **Tier 0:** FC Porto, CMVM
+
 ___
 
 **Tier 1:** PortoYouth, RTP
+
 ___
 
 **Tier 2:** O Jogo, Mercado Azul, zerozero, Cabine Desportiva, SportTV, JN
+
 ___
 
 **Tier 3:** Mais Futebol/CNN, Record, SIC Notícias, Mais Exclusivo, José Manuel Ribeiro, Ben Fernandes Santos
+
 ___
 
 **Tier 4:** Pedro Sepúlveda, A Bola, Sebastião Sousa Pinto, Bruno Andrade
+
 ___
 
 **Tier 5:** CMTV, Now Canal, Vítor Pinto, Nuno Farinha
