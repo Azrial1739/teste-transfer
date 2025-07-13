@@ -34,18 +34,10 @@ menu_title: Sobre
     margin-top: 1rem;
   }
 
-  table.tiers th,
   table.tiers td {
     padding: 0.6rem 1rem;
-    text-align: left;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     vertical-align: top;
-  }
-
-  table.tiers th {
-    color: #00bfff;
-    font-weight: 600;
-    font-size: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   table.tiers td.tier-label {
@@ -83,13 +75,6 @@ menu_title: Sobre
   <h3>Descrição das tiers:</h3>
 
   <table class="tiers">
-    <thead>
-      <tr>
-        <th>Tier</th>
-        <th>Título</th>
-        <th>Descrição</th>
-      </tr>
-    </thead>
     <tbody>
       <tr>
         <td class="tier-label">Tier 0</td>
