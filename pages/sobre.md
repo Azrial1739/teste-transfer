@@ -14,7 +14,7 @@ menu_title: Sobre
     background-color: rgba(255, 255, 255, 0.04);
     border-radius: 0.5rem;
     padding: 1.5rem 2rem;
-    margin-bottom: 2rem;
+    margin: 2.5rem 0 2rem 0; /* Add top margin to separate from banner */
     color: #ccc;
     line-height: 1.6;
   }
@@ -28,13 +28,34 @@ menu_title: Sobre
     padding-bottom: 0.4rem;
   }
 
-  .tier-description {
-    margin-bottom: 1rem;
+  table.tiers {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+
+  table.tiers th,
+  table.tiers td {
+    padding: 0.6rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    vertical-align: top;
+  }
+
+  table.tiers th {
+    color: #00bfff;
+    font-weight: 600;
     font-size: 1rem;
   }
 
-  .tier-description strong {
+  table.tiers td.tier-label {
     color: #00bfff;
+    font-weight: 600;
+    width: 5rem;
+  }
+
+  table.tiers td.tier-title {
+    width: 15rem;
   }
 
   p.footer-note {
@@ -61,12 +82,47 @@ menu_title: Sobre
 
   <h3>Descrição das tiers:</h3>
 
-  <p class="tier-description"><strong>Tier 0</strong> - Oficial - Confirmado pelo clube</p>
-  <p class="tier-description"><strong>Tier 1</strong> - -</p>
-  <p class="tier-description"><strong>Tier 2</strong> - -</p>
-  <p class="tier-description"><strong>Tier 3</strong> - -</p>
-  <p class="tier-description"><strong>Tier 4</strong> - -</p>
-  <p class="tier-description"><strong>Tier 5</strong> - -</p>
+  <table class="tiers">
+    <thead>
+      <tr>
+        <th>Tier</th>
+        <th>Título</th>
+        <th>Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tier-label">Tier 0</td>
+        <td class="tier-title">Oficial</td>
+        <td>Confirmado pelo clube</td>
+      </tr>
+      <tr>
+        <td class="tier-label">Tier 1</td>
+        <td class="tier-title">-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td class="tier-label">Tier 2</td>
+        <td class="tier-title">-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td class="tier-label">Tier 3</td>
+        <td class="tier-title">-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td class="tier-label">Tier 4</td>
+        <td class="tier-title">-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td class="tier-label">Tier 5</td>
+        <td class="tier-title">-</td>
+        <td>-</td>
+      </tr>
+    </tbody>
+  </table>
 
 </div>
 
