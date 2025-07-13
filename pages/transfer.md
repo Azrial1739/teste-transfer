@@ -46,6 +46,7 @@ menu_title: transfer
   .banidos-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 0.5rem;
     margin-top: 0.5rem;
   }
