@@ -31,6 +31,10 @@ menu_title: transfer
     color: #ccc;
     line-height: 1.5;
   }
+
+  .centered {
+    text-align: center;
+  }
 </style>
 
 <br>
@@ -62,7 +66,7 @@ menu_title: transfer
 
 <div class="tier-section">
   <div class="tier-header">Tier 5</div>
-  <div class="tier-content">CMTV, Now Canal, Vítor Pinto, Nuno Farinha</div>
+  <div class="tier-content centered">CMTV, Now Canal, Vítor Pinto, Nuno Farinha</div>
 </div>
 
 <div class="tier-section">
@@ -84,7 +88,7 @@ menu_title: transfer
 
 <div class="tier-section">
   <div class="tier-header">❌ Banidos</div>
-  <div class="tier-content">
+  <div class="tier-content centered">
     Luís Pinto Coelho, Bola na Rede, Nicolò Schira, Rudy Galetti, EkremKONUR, Michael Rincón, Jorge das Transferências, MarktGatekeeper, Mercado1893, Info Azul&Branca, Perry das Transferências, Pedro Almeida, Sacha Tavolieri, invictus, Dragão de Berço, Rúben Fernandes
   </div>
 </div>
