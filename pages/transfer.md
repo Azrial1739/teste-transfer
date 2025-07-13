@@ -5,49 +5,100 @@ permalink: /transfer/
 menu_title: transfer
 ---
 
+<style>
+  .tier-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 0.8rem;
+    font-size: 0.95rem;
+  }
 
-## Tiers:
+  .tier-row {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left: 5px solid #4e4e4e;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
 
-**Tier 0:** FC Porto, CMVM
+  .tier-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: white;
+  }
 
-___
+  .tier-content {
+    padding: 0.5rem 1rem;
+    color: #ccc;
+  }
 
-**Tier 1:** PortoYouth, RTP
+  .tier-0    { border-color: #00ffae; }
+  .tier-1    { border-color: #00c0ff; }
+  .tier-2    { border-color: #ffd700; }
+  .tier-3    { border-color: #ffa500; }
+  .tier-4    { border-color: #ff4d4d; }
+  .tier-5    { border-color: #b30000; }
+  .tier-outros { border-color: #888; }
+  .tier-ban   { border-color: #555; }
 
-___
+  .tier-section {
+    margin-bottom: 1.5rem;
+  }
+</style>
 
-**Tier 2:** O Jogo, Mercado Azul, zerozero, Cabine Desportiva, SportTV, JN
+<br>
 
-___
+<div class="tier-section tier-row tier-0">
+  <div class="tier-header">Tier 0</div>
+  <div class="tier-content">FC Porto, CMVM</div>
+</div>
 
-**Tier 3:** Mais Futebol/CNN, Record, SIC Notícias, Mais Exclusivo, José Manuel Ribeiro, Ben Fernandes Santos
+<div class="tier-section tier-row tier-1">
+  <div class="tier-header">Tier 1</div>
+  <div class="tier-content">PortoYouth, RTP</div>
+</div>
 
-___
+<div class="tier-section tier-row tier-2">
+  <div class="tier-header">Tier 2</div>
+  <div class="tier-content">O Jogo, Mercado Azul, zerozero, Cabine Desportiva, SportTV, JN</div>
+</div>
 
-**Tier 4:** Pedro Sepúlveda, A Bola, Sebastião Sousa Pinto, Bruno Andrade
+<div class="tier-section tier-row tier-3">
+  <div class="tier-header">Tier 3</div>
+  <div class="tier-content">Mais Futebol/CNN, Record, SIC Notícias, Mais Exclusivo, José Manuel Ribeiro, Ben Fernandes Santos</div>
+</div>
 
-___
+<div class="tier-section tier-row tier-4">
+  <div class="tier-header">Tier 4</div>
+  <div class="tier-content">Pedro Sepúlveda, A Bola, Sebastião Sousa Pinto, Bruno Andrade</div>
+</div>
 
-**Tier 5:** CMTV, Now Canal, Vítor Pinto, Nuno Farinha
+<div class="tier-section tier-row tier-5">
+  <div class="tier-header">Tier 5</div>
+  <div class="tier-content">CMTV, Now Canal, Vítor Pinto, Nuno Farinha</div>
+</div>
 
-___
+<div class="tier-section tier-row tier-outros">
+  <div class="tier-header">➕ Outros</div>
+  <div class="tier-content">
+    <strong>Geral:</strong> Fabrizio Romano, Matteo Moretto<br>
+    <strong>Inglaterra:</strong> David Ornstein, Lyall Thomas<br>
+    <strong>Itália:</strong> Di Marzio, Romeo Agresti<br>
+    <strong>Alemanha:</strong> Plettigoal<br>
+    <strong>França:</strong> Fabrice Hawkins, Santi Aouna<br>
+    <strong>Argentina:</strong> German Garcia Grova<br>
+    <strong>Brasil:</strong> Thiago Fernandes, André Hernan<br>
+    <strong>Colômbia:</strong> Pipe Sierra<br>
+    <strong>Suécia:</strong> Daniel Kristoffersson<br>
+    <strong>Dinamarca:</strong> Farzam Abolhosseini<br>
+    <strong>Países Baixos:</strong> Lentin Goodijk
+  </div>
+</div>
 
-**➕ Outros:**  
-Geral (Fabrizio Romano, Matteo Moretto);  
-Inglaterra (David Ornstein, Lyall Thomas);  
-Itália (Di Marzio, Romeo Agresti);  
-Alemanha (Plettigoal);  
-França (Fabrice Hawkins, Santi Aouna);  
-Argentina (German Garcia Grova);  
-Brasil (Thiago Fernandes, André Hernan);  
-Colômbia (Pipe Sierra);  
-Suécia (Daniel Kristoffersson);  
-Dinamarca (Farzam Abolhosseini);  
-Países Baixos (Lentin Goodijk)
-
-___
-
-**❌ Banidos:**  
-Luís Pinto Coelho; Bola na Rede; Nicolò Schira; Rudy Galetti; EkremKONUR; Michael Rincón; Jorge das Transferências; MarktGatekeeper; Mercado1893; Info Azul&Branca; Perry das Transferências; Pedro Almeida; Sacha Tavolieri; invictus; Dragão de Berço; Rúben Fernandes
-
-
+<div class="tier-section tier-row tier-ban">
+  <div class="tier-header">❌ Banidos</div>
+  <div class="tier-content">
+    Luís Pinto Coelho, Bola na Rede, Nicolò Schira, Rudy Galetti, EkremKONUR, Michael Rincón, Jorge das Transferências, MarktGatekeeper, Mercado1893, Info Azul&Branca, Perry das Transferências, Pedro Almeida, Sacha Tavolieri, invictus, Dragão de Berço, Rúben Fernandes
+  </div>
+</div>
