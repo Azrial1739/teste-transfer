@@ -5,28 +5,72 @@ permalink: /sobre/
 menu_title: Sobre
 ---
 
-### Sobre o Transfer Guide
-O r/fcporto Transfer Guide ...
+<style>
+  body {
+    font-family: 'Inter', sans-serif;
+  }
 
-___
+  .content-box {
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 0.5rem;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+    color: #ccc;
+    line-height: 1.6;
+  }
 
-### Descrição das tiers:
+  h3 {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 0.4rem;
+  }
 
-**Tier 0** - Oficial - Confirmado pelo clube
+  .tier-description {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
 
-**Tier 1** - -
+  .tier-description strong {
+    color: #00bfff;
+  }
 
-**Tier 2** - -
+  p.footer-note {
+    font-size: 0.70rem;
+    color: #888;
+  }
 
-**Tier 3** - -
+  p.footer-note a {
+    color: #ccc;
+    text-decoration: underline;
+  }
 
-**Tier 4** - -
+  p.footer-note a:hover {
+    color: #00bfff;
+  }
+</style>
 
-**Tier 5** - -
+<div class="content-box">
 
-___
+  <h3>Sobre o Transfer Guide</h3>
+  <p>O r/fcporto Transfer Guide ...</p>
 
-<p style="font-size: 0.70rem; color: #ccc;">
-  Este é um trabalho voluntário, independente e sem fins lucrativos, da autoria do <a href="https://www.reddit.com/r/fcporto" target="_blank" style="color: #ccc; text-decoration: underline;">r/fcporto</a>. Qualquer sugestão, correção ou contribuição é bem-vinda.<br>
-  Licenciado sob a <a href="{{ site.baseurl }}/LICENSE" target="_blank" style="color: #ccc; text-decoration: underline;">Licença MIT</a>.
+  <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 2rem 0;">
+
+  <h3>Descrição das tiers:</h3>
+
+  <p class="tier-description"><strong>Tier 0</strong> - Oficial - Confirmado pelo clube</p>
+  <p class="tier-description"><strong>Tier 1</strong> - -</p>
+  <p class="tier-description"><strong>Tier 2</strong> - -</p>
+  <p class="tier-description"><strong>Tier 3</strong> - -</p>
+  <p class="tier-description"><strong>Tier 4</strong> - -</p>
+  <p class="tier-description"><strong>Tier 5</strong> - -</p>
+
+</div>
+
+<p class="footer-note">
+  Este é um trabalho voluntário, independente e sem fins lucrativos, da autoria do <a href="https://www.reddit.com/r/fcporto" target="_blank">r/fcporto</a>. Qualquer sugestão, correção ou contribuição é bem-vinda.<br>
+  Licenciado sob a <a href="{{ site.baseurl }}/LICENSE" target="_blank">Licença MIT</a>.
 </p>
