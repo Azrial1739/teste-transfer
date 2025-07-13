@@ -6,14 +6,22 @@ permalink: /historico/
 ---
 
 <style>
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+
   .season-section {
-    margin-bottom: 2.5rem;
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    margin-bottom: 2rem;
   }
 
   .season-title {
     color: #fff;
     font-weight: 600;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
   }
 
   .links-container {
