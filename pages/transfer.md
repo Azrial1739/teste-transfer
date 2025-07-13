@@ -5,81 +5,68 @@ permalink: /transfer/
 menu_title: transfer
 ---
 
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
 <style>
-  .tier-table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0 0.8rem;
-    font-size: 0.95rem;
+  body {
+    font-family: 'Inter', sans-serif;
   }
 
-  .tier-row {
-    background-color: rgba(255, 255, 255, 0.05);
-    border-left: 5px solid #4e4e4e;
-    padding: 1rem;
+  .tier-section {
+    margin-bottom: 2rem;
+    padding: 1rem 1.5rem;
+    background-color: rgba(255, 255, 255, 0.04);
     border-radius: 0.5rem;
   }
 
   .tier-header {
     text-align: center;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
-    color: white;
+    color: #fff;
   }
 
   .tier-content {
-    padding: 0.5rem 1rem;
+    font-size: 0.95rem;
     color: #ccc;
-  }
-
-  .tier-0    { border-color: #00ffae; }
-  .tier-1    { border-color: #00c0ff; }
-  .tier-2    { border-color: #ffd700; }
-  .tier-3    { border-color: #ffa500; }
-  .tier-4    { border-color: #ff4d4d; }
-  .tier-5    { border-color: #b30000; }
-  .tier-outros { border-color: #888; }
-  .tier-ban   { border-color: #555; }
-
-  .tier-section {
-    margin-bottom: 1.5rem;
+    line-height: 1.5;
   }
 </style>
 
 <br>
 
-<div class="tier-section tier-row tier-0">
+<div class="tier-section">
   <div class="tier-header">Tier 0</div>
   <div class="tier-content">FC Porto, CMVM</div>
 </div>
 
-<div class="tier-section tier-row tier-1">
+<div class="tier-section">
   <div class="tier-header">Tier 1</div>
   <div class="tier-content">PortoYouth, RTP</div>
 </div>
 
-<div class="tier-section tier-row tier-2">
+<div class="tier-section">
   <div class="tier-header">Tier 2</div>
   <div class="tier-content">O Jogo, Mercado Azul, zerozero, Cabine Desportiva, SportTV, JN</div>
 </div>
 
-<div class="tier-section tier-row tier-3">
+<div class="tier-section">
   <div class="tier-header">Tier 3</div>
   <div class="tier-content">Mais Futebol/CNN, Record, SIC Notícias, Mais Exclusivo, José Manuel Ribeiro, Ben Fernandes Santos</div>
 </div>
 
-<div class="tier-section tier-row tier-4">
+<div class="tier-section">
   <div class="tier-header">Tier 4</div>
   <div class="tier-content">Pedro Sepúlveda, A Bola, Sebastião Sousa Pinto, Bruno Andrade</div>
 </div>
 
-<div class="tier-section tier-row tier-5">
+<div class="tier-section">
   <div class="tier-header">Tier 5</div>
   <div class="tier-content">CMTV, Now Canal, Vítor Pinto, Nuno Farinha</div>
 </div>
 
-<div class="tier-section tier-row tier-outros">
+<div class="tier-section">
   <div class="tier-header">➕ Outros</div>
   <div class="tier-content">
     <strong>Geral:</strong> Fabrizio Romano, Matteo Moretto<br>
@@ -96,7 +83,7 @@ menu_title: transfer
   </div>
 </div>
 
-<div class="tier-section tier-row tier-ban">
+<div class="tier-section">
   <div class="tier-header">❌ Banidos</div>
   <div class="tier-content">
     Luís Pinto Coelho, Bola na Rede, Nicolò Schira, Rudy Galetti, EkremKONUR, Michael Rincón, Jorge das Transferências, MarktGatekeeper, Mercado1893, Info Azul&Branca, Perry das Transferências, Pedro Almeida, Sacha Tavolieri, invictus, Dragão de Berço, Rúben Fernandes
