@@ -35,6 +35,34 @@ menu_title: transfer
   .centered {
     text-align: center;
   }
+
+  .outros-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem 1.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .banidos-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .banidos-list span {
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.4rem;
+    font-size: 0.85rem;
+    color: #eee;
+  }
+
+  @media (max-width: 600px) {
+    .outros-grid {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>
 
 <br>
@@ -71,24 +99,39 @@ menu_title: transfer
 
 <div class="tier-section">
   <div class="tier-header">➕ Outros</div>
-  <div class="tier-content">
-    <strong>Geral:</strong> Fabrizio Romano, Matteo Moretto<br>
-    <strong>Inglaterra:</strong> David Ornstein, Lyall Thomas<br>
-    <strong>Itália:</strong> Di Marzio, Romeo Agresti<br>
-    <strong>Alemanha:</strong> Plettigoal<br>
-    <strong>França:</strong> Fabrice Hawkins, Santi Aouna<br>
-    <strong>Argentina:</strong> German Garcia Grova<br>
-    <strong>Brasil:</strong> Thiago Fernandes, André Hernan<br>
-    <strong>Colômbia:</strong> Pipe Sierra<br>
-    <strong>Suécia:</strong> Daniel Kristoffersson<br>
-    <strong>Dinamarca:</strong> Farzam Abolhosseini<br>
-    <strong>Países Baixos:</strong> Lentin Goodijk
+  <div class="tier-content outros-grid">
+    <div><strong>Geral:</strong> Fabrizio Romano, Matteo Moretto</div>
+    <div><strong>Inglaterra:</strong> David Ornstein, Lyall Thomas</div>
+    <div><strong>Itália:</strong> Di Marzio, Romeo Agresti</div>
+    <div><strong>Alemanha:</strong> Plettigoal</div>
+    <div><strong>França:</strong> Fabrice Hawkins, Santi Aouna</div>
+    <div><strong>Argentina:</strong> German Garcia Grova</div>
+    <div><strong>Brasil:</strong> Thiago Fernandes, André Hernan</div>
+    <div><strong>Colômbia:</strong> Pipe Sierra</div>
+    <div><strong>Suécia:</strong> Daniel Kristoffersson</div>
+    <div><strong>Dinamarca:</strong> Farzam Abolhosseini</div>
+    <div><strong>Países Baixos:</strong> Lentin Goodijk</div>
   </div>
 </div>
 
 <div class="tier-section">
   <div class="tier-header">❌ Banidos</div>
-  <div class="tier-content centered">
-    Luís Pinto Coelho, Bola na Rede, Nicolò Schira, Rudy Galetti, EkremKONUR, Michael Rincón, Jorge das Transferências, MarktGatekeeper, Mercado1893, Info Azul&Branca, Perry das Transferências, Pedro Almeida, Sacha Tavolieri, invictus, Dragão de Berço, Rúben Fernandes
+  <div class="tier-content banidos-list">
+    <span>Luís Pinto Coelho</span>
+    <span>Bola na Rede</span>
+    <span>Nicolò Schira</span>
+    <span>Rudy Galetti</span>
+    <span>EkremKONUR</span>
+    <span>Michael Rincón</span>
+    <span>Jorge das Transferências</span>
+    <span>MarktGatekeeper</span>
+    <span>Mercado1893</span>
+    <span>Info Azul&Branca</span>
+    <span>Perry das Transferências</span>
+    <span>Pedro Almeida</span>
+    <span>Sacha Tavolieri</span>
+    <span>invictus</span>
+    <span>Dragão de Berço</span>
+    <span>Rúben Fernandes</span>
   </div>
 </div>
