@@ -70,7 +70,7 @@ menu_title: Sobre
   <h3>Sobre o Transfer Guide</h3>
   <p>O r/fcporto Transfer Guide é uma plataforma colaborativa criada para clarificar a fiabilidade das notícias e rumores sobre transferências relacionados com o FC Porto, funcionando também como guia de apoio às MegaThreads dos mercados de transferências.<br><br>
 
-Este é um projeto voluntário, independente e sem fins lucrativos, da autoria do <a href="https://www.reddit.com/r/fcporto/" target="_blank" style="color: #ccc; text-decoration: underline;">r/fcporto</a>. Qualquer sugestão, correção ou contribuição é bem-vinda.</p>
+Este é um projeto voluntário, independente e sem fins lucrativos, da autoria do <a href="https://www.reddit.com/r/fcporto/" target="_blank" style="color: #ccc; text-decoration: underline;">/r/fcporto</a>. Qualquer sugestão, correção ou contribuição é bem-vinda.</p>
 
   <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 2rem 0;">
 
