@@ -74,7 +74,7 @@ Este é um projeto voluntário, independente e sem fins lucrativos, da autoria d
 
   <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 2rem 0;">
 
-  <h3>Descrição das tiers:</h3>
+  <h3>Descrição dos tiers:</h3>
 
   <table class="tiers">
     <tbody>
