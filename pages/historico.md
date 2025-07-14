@@ -15,6 +15,7 @@ permalink: /historico/
     border-radius: 0.5rem;
     padding: 1rem 1.5rem;
     margin-bottom: 2rem;
+    text-align: center;
   }
 
   .season-title {
@@ -22,13 +23,13 @@ permalink: /historico/
     font-weight: 600;
     margin-bottom: 1rem;
     font-size: 1.2rem;
-    text-aling: center;
   }
 
   .links-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    justify-content: center;
   }
 
   .historico-link {
