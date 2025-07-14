@@ -14,7 +14,7 @@ menu_title: Sobre
     background-color: rgba(255, 255, 255, 0.04);
     border-radius: 0.5rem;
     padding: 1.5rem 2rem;
-    margin: 2.5rem 0 2rem 0; /* Add top margin to separate from banner */
+    margin: 2.5rem 0 2rem 0;
     color: #ccc;
     line-height: 1.6;
   }
@@ -68,7 +68,9 @@ menu_title: Sobre
 <div class="content-box">
 
   <h3>Sobre o Transfer Guide</h3>
-  <p>O r/fcporto Transfer Guide ...</p>
+  <p>O r/fcporto Transfer Guide é uma plataforma colaborativa criada para clarificar a fiabilidade das notícias e rumores sobre transferências relacionados com o FC Porto, funcionando também como guia de apoio às MegaThreads dos mercados de transferências.
+
+Este é um projeto voluntário, independente e sem fins lucrativos, da autoria do r/fcporto. Qualquer sugestão, correção ou contribuição é bem-vinda.</p>
 
   <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 2rem 0;">
 
@@ -112,6 +114,5 @@ menu_title: Sobre
 </div>
 
 <p class="footer-note">
-  Este é um trabalho voluntário, independente e sem fins lucrativos, da autoria do <a href="https://www.reddit.com/r/fcporto" target="_blank">r/fcporto</a>. Qualquer sugestão, correção ou contribuição é bem-vinda.<br>
   Licenciado sob a <a href="{{ site.baseurl }}/LICENSE" target="_blank">Licença MIT</a>.
 </p>
