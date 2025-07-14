@@ -3,42 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>{{ page.title | default: site.title }}</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
 
   <style>
-    :root {
-      --bg-color: #ffffff;
-      --text-color: #000000;
-      --accent-color: #0055cc;
-      --banner-text-bg: rgba(0, 32, 64, 0.8);
-    }
-
-    [data-theme="dark"] {
-      --bg-color: #0a192f;
-      --text-color: #ffffff;
-      --accent-color: #00bfff;
-      --banner-text-bg: rgba(0, 32, 64, 0.8);
-    }
-
     body {
-      background-color: var(--bg-color);
-      color: var(--text-color);
+      background-color: #0a192f;
+      color: #fff;
       font-family: 'Inter', sans-serif;
       max-width: 800px;
       margin: 2rem auto;
       padding: 1rem;
       line-height: 1.6;
-      transition: background-color 0.3s ease, color 0.3s ease;
     }
 
-    a {
-      color: var(--accent-color);
-    }
+    a { color: #00bfff; }
 
     h1, h2, h3 {
-      color: var(--text-color);
+      color: #fff;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
 
@@ -48,7 +32,7 @@
       background-size: cover;
       background-position: center 40%;
       padding: 4rem 1rem;
-      height: 150px;
+      height: 150px; 
       display: flex;
       align-items: flex-end;
     }
@@ -64,7 +48,7 @@
     }
 
     .banner-text {
-      background-color: var(--banner-text-bg);
+      background-color: rgba(0, 32, 64, 0.8); 
       color: white;
       padding: 0.5rem 1rem;
       border-radius: 0.5rem;
@@ -77,15 +61,16 @@
       font-weight: bold;
       max-width: 90%;
       box-sizing: border-box;
-      text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+      text-shadow:
+        1px 1px 2px rgba(0,0,0,0.8);
     }
 
     .footer-banner {
       background-image: url('{{ site.baseurl }}/images/bottom.jpg');
       background-size: cover;
       background-position: center 35%;
-      background-repeat: no-repeat;
-      height: 200px;
+      background-repeat: no-repeat;  
+      height: 200px;  
       margin-top: 4rem;
       position: relative;
     }
@@ -101,20 +86,6 @@
       color: white;
       z-index: 2;
       margin: 0;
-    }
-
-    #theme-toggle {
-      position: fixed;
-      top: 1rem;
-      right: 1rem;
-      z-index: 1000;
-      background: none;
-      border: none;
-      color: var(--accent-color);
-      font-size: 1.2rem;
-      cursor: pointer;
-      padding: 0.5rem;
-      transition: color 0.3s ease;
     }
 
     @media (max-width: 600px) {
@@ -134,18 +105,10 @@
         height: 120px;
         background-position: center 35%;
       }
-
-      #theme-toggle {
-        top: 0.5rem;
-        right: 0.5rem;
-      }
     }
   </style>
 </head>
-
 <body>
-  <button id="theme-toggle" aria-label="Toggle dark/light mode">🌓</button>
-
   <header class="banner">
     <div class="banner-overlay"></div>
     <h1 class="banner-text">{{ page.title | default: site.title }}</h1>
@@ -158,23 +121,5 @@
   <footer class="footer-banner">
     <div class="footer-overlay"></div>
   </footer>
-
-  <script>
-    const toggleBtn = document.getElementById('theme-toggle');
-
-    function setTheme(theme) {
-      document.documentElement.setAttribute('data-theme', theme);
-      localStorage.setItem('theme', theme);
-    }
-
-    toggleBtn.addEventListener('click', () => {
-      const currentTheme = localStorage.getItem('theme') || 'light';
-      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-      setTheme(newTheme);
-    });
-
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    setTheme(savedTheme);
-  </script>
 </body>
 </html>
