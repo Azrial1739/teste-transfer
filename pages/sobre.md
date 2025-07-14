@@ -96,8 +96,8 @@ menu_title: Sobre
         </tr>
         <tr>
           <td class="tier-label">Tier 1</td>
-          <td class="tier-title">Muito Credível</td>
-          <td>foiajsd aisjap apsodojasd, aiods  iasjdm aispdjk aspjddas</td>
+          <td class="tier-title">place holder</td>
+          <td>place holder place holder place holder place holder</td>
         </tr>
         <tr>
           <td class="tier-label">Tier 2</td>
