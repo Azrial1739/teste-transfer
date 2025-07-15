@@ -9,7 +9,7 @@ menu_title: Arquivo
   .arquivo-section {
     background-color: rgba(255, 255, 255, 0.04);
     padding: 1.5rem;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     border-radius: 0.5rem;
   }
 
