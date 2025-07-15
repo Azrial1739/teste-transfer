@@ -55,6 +55,13 @@ permalink: /historico/
 
 <br>
 
+<div class="season section">
+  <h3 class="season-title">Época 2025/26</h3>
+  <div class="links-container">
+    <a href="https://www.reddit.com/r/fcporto/comments/1kp1w1l/megathread_mercado_de_transfer%C3%AAncias_ver%C3%A3o_202526/" target="_blank" class="historico-link">Mercado Verão</a>
+  </div>
+</div>
+
 <div class="season-section">
   <h3 class="season-title">Época 2024/25</h3>
   <div class="links-container">
