@@ -10,7 +10,7 @@ menu_title: Notas
     background-color: rgba(255, 255, 255, 0.04);
     border-radius: 0.5rem;
     padding: 2rem 1.5rem;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
     line-height: 1.6;
     font-size: 1rem;
     color: #ccc;
