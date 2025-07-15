@@ -69,7 +69,6 @@ menu_title: Arquivo
         <td>❔ Caio Barone</td>
         <td>07/06</td>
         <td><a href="https://as.com/futbol/primera/el-celta-supera-a-oporto-e-inter-en-la-puja-por-caio-barone-n/?utm_campaign=mrf-twitter-AS_Futbol&mrfcid=2025060768441e0a0be3e614ee6ac29e" target="_blank" style="color: #ccc; text-decoration: underline;">AS</a></td>
-      </tr>
     </tbody>
   </table>
 </div>
