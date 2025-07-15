@@ -104,7 +104,6 @@ menu_title: Arquivo
         <td>15/07</td>
         <td><a href="https://www.zerozero.pt/noticias/da-despromocao-em-espanha-a-liga-dos-campeoes-raul-moro-assina-pelo-ajax/863862" target="_blank" style="color: #ccc; text-decoration: undereline;">ZeroZero</a></td>
       </tr>
-      </tr>
     </tbody>
   </table>
 </div>
