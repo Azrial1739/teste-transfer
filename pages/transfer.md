@@ -4,6 +4,7 @@ title: Transfer Reliability
 permalink: /transfer/
 menu_title: transfer
 ---
+
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
@@ -80,22 +81,22 @@ menu_title: transfer
 
 <div class="tier-section">
   <div class="tier-header">Tier 2</div>
-  <div class="tier-content centered">O Jogo, Mercado Azul, zerozero, Cabine Desportiva, SportTV, JN</div>
+  <div class="tier-content centered">O Jogo, Mercado Azul, zerozero, SportTV, JN, Record</div>
 </div>
 
 <div class="tier-section">
   <div class="tier-header">Tier 3</div>
-  <div class="tier-content centered">Mais Futebol/CNN, Record, SIC Notícias, Mais Exclusivo, José Manuel Ribeiro, Ben Fernandes Santos</div>
+  <div class="tier-content centered">Mais Futebol/CNN, Record, SIC Notícias, Mais Exclusivo, Ben Fernandes Santos, Now Canal, Cabine Desportiva, A Bola</div>
 </div>
 
 <div class="tier-section">
   <div class="tier-header">Tier 4</div>
-  <div class="tier-content centered">Pedro Sepúlveda, A Bola, Sebastião Sousa Pinto, Bruno Andrade</div>
+  <div class="tier-content centered">A Bola, José Manuel Ribeiro, Sebastião Sousa Pinto, Bruno Andrade</div>
 </div>
 
 <div class="tier-section">
   <div class="tier-header">Tier 5</div>
-  <div class="tier-content centered">CMTV, Now Canal, Vítor Pinto, Nuno Farinha</div>
+  <div class="tier-content centered">CMTV, Now Canal, Vítor Pinto, Nuno Farinha, Pedro Sepúlveda</div>
 </div>
 
 <div class="tier-section">
