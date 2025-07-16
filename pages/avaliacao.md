@@ -47,7 +47,7 @@ permalink: /avaliacao/
   <span class="emoji">✅</span>
   <div>
     <h3>Confiável</h3>
-    <p>Confirmado por fonte credível ou corroborado por mais do que uma</p>
+    <p>Confirmado por uma fonte credível ou corroborado por mais do que uma.</p>
   </div>
 </div>
 
@@ -55,7 +55,7 @@ permalink: /avaliacao/
   <span class="emoji">🟡</span>
   <div>
     <h3>Possível</h3>
-    <p>Plausível, mas carece de confirmação</p>
+    <p>Parece plausível e pode ser verdadeira, mas ainda não há confirmação sólida.</p>
   </div>
 </div>
 
@@ -63,7 +63,7 @@ permalink: /avaliacao/
   <span class="emoji">🟠</span>
   <div>
     <h3>Suspeito</h3>
-    <p>Fontes pouco confiáveis</p>
+    <p>A probabilidade de ser falso é relativamente alta, mas não tão óbvia.</p>
   </div>
 </div>
 
@@ -71,7 +71,7 @@ permalink: /avaliacao/
   <span class="emoji">🔴</span>
   <div>
     <h3>Duvidoso</h3>
-    <p>Forte indício de falsidade</p>
+    <p>Há fortes evidências de que é falso ou enganoso.</p>
   </div>
 </div>
 
