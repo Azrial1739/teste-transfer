@@ -82,49 +82,6 @@ menu_title: Sobre
   <p>O r/fcporto Transfer Guide é uma plataforma colaborativa criada para clarificar a fiabilidade das notícias e rumores sobre transferências relacionados com o FC Porto, funcionando também como guia de apoio às MegaThreads dos mercados de transferências.<br><br>
   Este é um projeto voluntário, independente e sem fins lucrativos, da autoria do <a href="https://www.reddit.com/r/fcporto/" target="_blank" style="color: #ccc; text-decoration: underline;">r/fcporto</a>. Qualquer sugestão, correção ou contribuição é bem-vinda.</p>
 
-  <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 2rem 0;">
-
-  <h3>Descrição dos tiers:</h3>
-
-  <div class="table-wrapper">
-    <table class="tiers">
-      <tbody>
-        <tr>
-          <td class="tier-label">Tier 0</td>
-          <td class="tier-title">Oficial</td>
-          <td>Confirmado pelo clube</td>
-        </tr>
-        <tr>
-          <td class="tier-label">Tier 1</td>
-          <td class="tier-title">place holder</td>
-          <td>place holder place holder place holder place holder</td>
-        </tr>
-        <tr>
-          <td class="tier-label">Tier 2</td>
-          <td class="tier-title">-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td class="tier-label">Tier 3</td>
-          <td class="tier-title">-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td class="tier-label">Tier 4</td>
-          <td class="tier-title">-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td class="tier-label">Tier 5</td>
-          <td class="tier-title">-</td>
-          <td>-</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-</div>
-
 <p class="footer-note">
   Licenciado sob a <a href="{{ site.baseurl }}/LICENSE" target="_blank">Licença MIT</a>.
 </p>
