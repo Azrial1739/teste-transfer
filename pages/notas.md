@@ -37,6 +37,6 @@ menu_title: Notas
     <li><strong>"Arquivo"</strong> inclui jogadores que já foram transferidos para outro clube ou cuja continuidade no atual clube está confirmada.</li>
     <li>Os tiers nacionais (1 a 5) foram definidos com base nos resultados de um inquérito realizado junto da comunidade do sub. O tier <strong>"Outros"</strong> agrupa fontes internacionais de reconhecida reputação.</li>
     <li>As avaliações dos rumores consideram o contexto específico de cada situação e a fiabilidade da fonte, de acordo com o seu tier. Essa classificação está a cargo dos gestores da thread.</li>
-    <li>Quando indicado <strong>"Geral"</strong> nos rumores, significa que praticamente toda a comunicação social desportiva está a reportar a mesma informação, de forma consistente.</li>
+    <li>Quando indicado <strong>"CS"</strong> nos rumores, significa que praticamente toda a comunicação social desportiva está a reportar a mesma informação, de forma consistente.</li>
   </ul>
 </div>
