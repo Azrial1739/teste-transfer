@@ -77,6 +77,7 @@ menu_title: Sobre
 </style>
 
 <div class="content-box">
+<p style="color: red;">TEST TEXT</p>
 
   <h3>Sobre o Transfer Guide</h3>
   <p>O r/fcporto Transfer Guide é uma plataforma colaborativa criada para clarificar a fiabilidade das notícias e rumores sobre transferências relacionados com o FC Porto, funcionando também como guia de apoio às MegaThreads dos mercados de transferências.<br><br>
