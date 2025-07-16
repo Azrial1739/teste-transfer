@@ -55,6 +55,28 @@ menu_title: Arquivo
 </style>
 
 <div class="arquivo-section">
+  <h3>Outros rumores</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Jogador</th>
+        <th>Data</th>
+        <th>Fonte</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>✅ Barrenechea</td>
+        <td>13/07</td>
+        <td>
+          <a href="https://x.com/CLMerlo/status/1944230235840348542" target="_blank" style="color: #ccc; text-decoration: underline;">CL Merlo</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="arquivo-section">
   <h3>📘 Equipa B</h3>
   <table>
     <thead>
@@ -123,10 +145,19 @@ menu_title: Arquivo
     </thead>
     <tbody>
       <tr>
-        <td>🟡 Antoñito Cordero</td>
+        <td>Antoñito Cordero</td>
         <td>14/03</td>
         <td>
-          <a href="https://www.ojogo.pt/6684610536/suposto-interesse-do-fc-porto-em-antonio-cordero-noticiado-em-espanha/#iss=https%3A%2F%2Fsso.noticiasilimitadas.pt%2Frealms%2FNI_PRD&iss=https%3A%2F%2Fsso.noticiasilimitadas.pt%2Frealms%2FNI_PRD" target="_blank" style="color: #ccc; text-decoration: underline;">O Jogo</a>
+          <a href="https://www.ojogo.pt/6684610536/suposto-interesse-do-fc-porto-em-antonio-cordero-noticiado-em-espanha" target="_blank" style="color: #ccc; text-decoration: underline;">O Jogo</a>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>Jordan Henderson</td>
+        <td>09/07</td>
+        <td>
+          <a href="https://www.ojogo.pt/4581665436/henderson-fora-do-radar-do-fc-porto-vai-voltar-a-premier-league/" target="_blank" style="color: #ccc; text-decoration: underline;">O Jogo</a>
         </td>
       </tr>
     </tbody>
