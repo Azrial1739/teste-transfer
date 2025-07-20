@@ -82,6 +82,15 @@ menu_title: Arquivo
         </td>
       </tr>
     </tbody>
+    <tbody>
+      <tr>
+        <td>✅ Richard Ríos</td>
+        <td>09/07</td>
+        <td>
+          <a href="https://www.ojogo.pt/8143452045/richard-rios-foi-equacionado-mas-e-carta-fora-do-baralho-do-fc-porto/" target="_blank" style="color: #ccc; text-decoration: underline;">O Jogo</a>
+        </td>
+      </tr>
+    </tbody>
   </table>
 </div>
 
